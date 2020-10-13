@@ -1,0 +1,48 @@
+.largeRed{
+	font-size: 24px;
+	color: purple;
+font-family: "Times New Roman", Times, serif;
+}
+.row1{
+	background-color: gold；
+}
+.pink{
+	font-size: 24px;
+	color: pink;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.row2{
+	background-color: blue;
+}
+.blue{
+	font-size: 24px;
+	color: blue;
+	font-family: "Lucida Console", Courier, monospace;
+}
+.row3{
+	background-color: pink;
+}
+.green{
+	font-size: 24px;
+	color: green;
+	font-family: Impact, Charcoal, sans-serif;
+}
+.row4{
+	background-color: red;
+}
+.yellow{
+	font-size: 24px;
+	color: yellow;
+	font-family: Impact, Charcoal, sans-serif;
+}
+.row5{
+	background-color: blue;
+}
+.grey{
+	font-size: 24px;
+	color: grey;
+	font-family: Impact, Charcoal, sans-serif;
+}
+.row6{
+	background-color: yellow;
+}

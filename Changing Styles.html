@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div.transition1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+transition-timing-function: linear;
+}
+div.transition2 {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  transition: width 2s;
+transition-timing-function: linear;
+}
+div:hover {
+  width: 500px;
+}
+div.animation {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+  animation-name: example;
+  animation-duration: 4s;
+animation-iteration-count: infinite;
+}
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+div.animation2 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  animation-name: example2;
+  animation: myfirst 5s linear 2s infinite alternate;
+}
+@keyframes example2 {
+  0%   {background-color:blue;}
+  25%  {background-color:green;}
+  50%  {background-color:yellow;}
+  100% {background-color:blue;}
+}
+</style>
+</head>
+<body>
+<h1 class = "largeRed"> Changing Styles </h1>
+<table width="100%" border="1">
+  <tbody>
+    <tr>
+<td><h2>Transitions: When the cursor mouses move onto the element, the specified CSS property (width) changes value, the transition effect will start. When the cursor mouses out of the element, it will gradually change back to its original style. </h2></td>
+<td><h2>animation: An animation lets an element gradually change from one style to another.</h2></td>
+</tr>
+    <tr>
+      <td><div class="transition1"></div></td>
+      <td><div class="animation"></div></td>
+    </tr>
+<tr>
+      <td><div class="transition2"></div></td>
+      <td><div class="animation2"></div></td>
+    </tr>
+<tr>
+      <td></td>
+      <td></td>
+    </tr>
+
+
+</body>
+</html>

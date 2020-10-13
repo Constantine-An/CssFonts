@@ -1,0 +1,16 @@
+#outer{
+    position: relative;
+    border: 900px solid;
+    color: red;
+    height: 900px;
+}
+#rectangle{
+    position: absolute;
+    bottom: 5px;
+    width: 90px;
+    height: 50px;
+    right: 10px;
+    border: 10px solid #DD42E4;
+    background-color: green;
+    left: 45px;
+}

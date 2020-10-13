@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+h1 {
+	color: red;
+	font-size: 24px;
+	background-color:lightblue;
+}
+h2 {
+	color: green;
+	font-size: 24px;
+	background-color:red;
+}
+h3 {
+	color: blue;
+	font-size: 24px;
+	background-color:green;
+}
+h4 {
+	color: gold;
+	font-size: 24px;
+	background-color:silver;
+}
+</style>
+</head>
+
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<table width="100%" border="1">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
